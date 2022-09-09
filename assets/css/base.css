@@ -1,0 +1,32 @@
+:root {
+    --white-color: #fff;
+    --red-color: #C21022;
+    --green-color: #119D29;
+    --brown-color: #C2372B;
+    --yellow-color: #ead130;
+    --orange-color: #f46314;
+    --pink-color: #F05F65;
+    --violet-color: #5757AF;
+    --blue-color: #0783ff;
+    --lime-color: #C0D67B;
+    --ocean-color: #3DD2FF;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+}
+
+::selection {
+    color: rgb(51, 48, 48);
+    background: rgba(255, 255, 255, 0.4);
+}

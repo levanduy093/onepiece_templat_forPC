@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>One Piece</title>
+</head>
+<body>
+    <div class="app">
+        <div id="header">
+
+            <video autoplay loop muted plays-inline class="header__bg-video">
+                <source src="./assets/img/header_bg.mp4" type="video/mp4">
+            </video>
+
+            <nav>
+                <a href="#">
+                    <img src="./assets/img/logo.png" alt="Logo" class="header__nav-img">
+                </a>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__item-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#character" class="nav__item-link">Characters</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#info" class="nav__item-link">Info</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__item-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__content">
+                <h1 class="header__content-text">One piece</h1>
+            </div>
+        </div>
+
+        <div id="character">
+            <div class="bg__character bg__wanted-img" style="background-image: url(./assets/img/char__bg.jpeg);"></div>
+            <div class="character__heading-text">
+                <img src="./assets/img/marine_logo.png" alt="" class="marine__wanted-img">
+            </div>
+            <div class="character__content">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col img__char l-2-4 m-6">
+                            <a href="#charc__luffy" class="">
+                                <img src="./assets/img/wanted/wanted_luffy.png" alt="" class="char-item-img">
+                                <img src="./assets/img/deep_img/luffy_child.jpeg" alt="" class="char-item-deep">
+                            </a>
+                        </div>
+                        <div class="col img__char l-2-4 m-6">
+                            <a href="#charc__zoro">
+                                <img src="./assets/img/wanted/wanted_zoro.png" alt="" class="char-item-img">
+                                <img src="./assets/img/deep_img/zoro_child.png" alt="" class="char-item-deep">
+                            </a>
+                        </div>
+                        <div class="col img__char l-2-4 m-6">
+                            <a href="#charc__ussop">
+                                <img src="./assets/img/wanted/wanted_ussop.png" alt="" class="char-item-img">
+                                <img src="./assets/img/deep_img/ussop_child.png" alt="" class="char-item-deep">
+                            </a>
+                        </div>
+                        <div class="col img__char l-2-4 m-6">
+                            <a href="#charc__sanji">
+                                <img src="./assets/img/wanted/wanted_sanji.png" alt="" class="char-item-img">
+                                <img src="./assets/img/deep_img/sanji_child.png" alt="" class="char-item-deep">
+                            </a>
+                        </div>
+                        <div class="col img__char l-2-4 m-6">
+                            <a href="#charc__nami">
+                                <img src="./assets/img/wanted/wanted_nami.png" alt="" class="char-item-img">
+                                <img src="./assets/img/deep_img/nami_child.png" alt="" class="char-item-deep">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col img__char l-2-4 m-6">
+                            <a href="#charc__chopper">
+                                <img src="./assets/img/wanted/wanted_chopper.png" alt="" class="char-item-img">
+                                <img src="./assets/img/deep_img/chopper_child.png" alt="" class="char-item-deep">
+                            </a>
+                        </div>
+                        <div class="col img__char l-2-4 m-6">
+                            <a href="#charc__robin">
+                                <img src="./assets/img/wanted/wanted_robin.png" alt="" class="char-item-img">
+                                <img src="./assets/img/deep_img/robin_child.png" alt="" class="char-item-deep">
+                            </a>
+                        </div>
+                        <div class="col img__char l-2-4 m-6">
+                            <a href="#charc__franky">
+                                <img src="./assets/img/wanted/wanted_franky.png" alt="" class="char-item-img">
+                                <img src="./assets/img/deep_img/franky_child.png" alt="" class="char-item-deep">
+                            </a>
+                        </div>
+                        <div class="col img__char l-2-4 m-6">
+                            <a href="#charc__brook">
+                                <img src="./assets/img/wanted/wanted_brook.png" alt="" class="char-item-img">
+                                <img src="./assets/img/deep_img/brook_child.png" alt="" class="char-item-deep">
+                            </a>
+                        </div>
+                        <div class="col img__char l-2-4 m-6">
+                            <a href="#charc__jinbei">
+                                <img src="./assets/img/wanted/wanted_jinbei.png" alt="" class="char-item-img">
+                                <img src="./assets/img/deep_img/jinbei_child.png" alt="" class="char-item-deep">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="info">
+                <div id="charc__luffy">
+                    <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/luffy_bg-info.jpg);"></div>
+                    <h1 class="charc__luffy-heading-text">
+                        Monkey D. Luffy
+                    </h1>
+                    <div class="charc__content">
+                        <img src="./assets/img/lufy_info.jpg" alt="" class="charc__info-img">
+                        <div class="charc__content-container">
+                            <p class="charc__content-container-name">Tên đầy đủ: Monkey D. Luffy</p>
+                            <p class="charc__content-container-old">Tuổi: 19</p>
+                            <p class="charc__content-container-date">Sinh nhật: ngày 5 tháng 5</p>
+                            <p class="charc__content-container-height">Chiều cao: 174cm</p>
+                            <p class="charc__content-container-power">Trái ác quỷ: Hito Hito No Mi Modeal Nika</p>
+                            <p class="charc__content-container-bonus">Tiền thưởng: 3.000.000.000 Beri</p>
+                            <p class="charc__content-container-position">Chức vụ trong băng: Thuyền trưởng</p>
+                            <p class="charc__content-container-desc">
+                                Sơ lược về nhân vật: Monkey D. Luffy là được biết đến là nhân vật chính trong bộ truyện One Piece, là thuyền trưởng của băng hải tặc mũ rơm. Từ khi là một cậu bé thì Luffy đã có máu liều nhiều hơn máu não 
+                                cộng với gia thế khủng cha là Monkey D. Dragon một nhà cách mạng, ông nội là anh hùng hải quân Monkey D. Garp thế nhưng thằng cháu lại quyết định làm một hải tặc với ước mơ trở thành người tự do nhất trên biển giành lấy One Piece
+                                và trở thành vua hải tặc. Luffy có sở thích ăn uống vô cùng mãnh liệt một mình có thể ăn hết phần của 100 người, cộng với cái nết chơi gì cũng ngu chỉ có chơi ngu là giỏi cậu đã không ít lần đưa cả băng vào tình thế khốn khổ.
+                            </p>
+                            <div class="charc__content-container-more">
+                                <span class="charc__content-container-more-text">
+                                    Tham khảo thêm tại
+                                    <a href="https://vi.wikipedia.org/wiki/Monkey_D._Luffy" class="charc__content-container-more-link" target="_blank"> đây</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="charc__zoro">
+                    <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/zoro_bg-info.png);"></div>
+                    <h1 class="charc__luffy-heading-text charc__zoro-heading-text">
+                        Roronoa Zoro
+                    </h1>
+                    <div class="charc__content">
+                        <img src="./assets/img/zoro_info.jpeg" alt="" class="charc__info-img">
+                        <div class="charc__content-container charc__content-container-zoro">
+                            <p class="charc__content-container-name">Tên đầy đủ: Roronoa Zoro</p>
+                            <p class="charc__content-container-old">Tuổi: 21</p>
+                            <p class="charc__content-container-date">Sinh nhật: ngày 11 tháng 11</p>
+                            <p class="charc__content-container-height">Chiều cao: 181cm</p>
+                            <p class="charc__content-container-power">Người chơi hệ kiếm</p>
+                            <p class="charc__content-container-bonus">Tiền thưởng: 1.111.000.000 Beri</p>
+                            <p class="charc__content-container-position">Chức vụ trong băng: Thuyền Phó</p>
+                            <p class="charc__content-container-desc">
+                                Sơ lược về nhân vật: Roronoa Zoro anh chồng quốc dân được biết đến là kiếm sĩ trong băng mũ rơm với kỹ năng kiếm thuật mạnh mẽ và được cho là sẽ trở thành kiếm sĩ mạnh nhất thế giới trong tương lai. 
+                                Nếu như người bình thường sử dụng một thanh kiếm thì anh chọn làm người bất thuòng không những hai cây anh chơi tận ba cây một lượt, hai tay hai cây một cây anh ngậm vào miệng. Nhưng mà người ta nói 
+                                không ai hoàn hảo cả, vừa đẹp trai vừa mạnh mẽ tài năng nhưng anh bị bệnh mù đường, không có anh ba Sanji thì chắc cha nội Zoro đi qua tới phim Naruto luôn rồi.
+                            </p>
+                            <div class="charc__content-container-more">
+                                <span class="charc__content-container-more-text">
+                                    Tham khảo thêm tại
+                                    <a href="https://vi.wikipedia.org/wiki/Roronoa_Zoro" class="charc__content-container-more-link" target="_blank"> đây</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="charc__ussop">
+                    <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/ussop_bg-info.jpg);"></div>
+                    <h1 class="charc__luffy-heading-text charc__ussop-heading-text">
+                        God Usopp
+                    </h1>
+                    <div class="charc__content">
+                        <img src="./assets/img/ussop-info.jpeg" alt="" class="charc__info-img">
+                        <div class="charc__content-container charc__content-container-ussop">
+                            <p class="charc__content-container-name">Tên đầy đủ: God Usopp</p>
+                            <p class="charc__content-container-old">Tuổi: 19</p>
+                            <p class="charc__content-container-date">Sinh nhật: ngày 1 tháng 4</p>
+                            <p class="charc__content-container-height">Chiều cao: 176cm</p>
+                            <p class="charc__content-container-power">Trái ác quỷ: Người chơi hệ xạ thủ và haki gió vương</p>
+                            <p class="charc__content-container-bonus">Tiền thưởng: 500.000.000 Beri</p>
+                            <p class="charc__content-container-position">Chức vụ trong băng: Thuyền viên</p>
+                            <p class="charc__content-container-desc">
+                                Sơ lược về nhân vật: God Usopp được biết tới là cây hài à nhầm =)) xạ thủ trong băng, được tác giả buff cho haki quan sát lạ nhất hành tinh cộng với haki gió vương có thể sánh với tứ hoàng Buggy, người đời (Đời nào thì hông biết) 
+                                còn đồn rằng tên của anh thật sự là Go D. Usopp. Khi chiến đấu với những đối thủ không xứng tầm anh chỉ là Usopp nhưng khi nghiêm túc anh sẽ hoa thân thành Sogeking dễ dàng hạ gục đối thủ.
+                            </p>
+                            <div class="charc__content-container-more">
+                                <span class="charc__content-container-more-text-ussop">
+                                    Tham khảo thêm tại
+                                    <a href="https://onepiece.fandom.com/wiki/Usopp" class="charc__content-container-more-link-ussop" target="_blank"> đây</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="charc__sanji">
+                    <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/sanji_bg-img.jpg);"></div>
+                    <h1 class="charc__luffy-heading-text charc__sanji-heading-text">
+                        Vinsmoke sanji
+                    </h1>
+                    <div class="charc__content">
+                        <img src="./assets/img/sanji_info.jpeg" alt="" class="charc__info-img">
+                        <div class="charc__content-container charc__content-container-sanji">
+                            <p class="charc__content-container-name">Tên đầy đủ: Vinsmkoe Sanji</p>
+                            <p class="charc__content-container-old">Tuổi: 21</p>
+                            <p class="charc__content-container-date">Sinh nhật: ngày 2 tháng 3</p>
+                            <p class="charc__content-container-height">Chiều cao: 180cm</p>
+                            <p class="charc__content-container-power">Trái ác quỷ: Người chơi hệ chân</p>
+                            <p class="charc__content-container-bonus">Tiền thưởng: 1.032.000.000 Beri</p>
+                            <p class="charc__content-container-position">Chức vụ trong băng: Đầu bếp</p>
+                            <p class="charc__content-container-desc">
+                                Sơ lược về nhân vật: Vinsmoke Sanji được biết đến là đầu bếp trong băng nhưng đừng có tưởng anh là anh đầu bếp yếu đuối, giỡn mặt với anh ba Sanji là hàm răng không còn. 
+                                Anh ba nhà Germa đẹp trai, nấu ăn giỏi, mạnh mẽ thế nhưng cái nết đánh chetme cái đẹp, anh mê gái đẹp đến mức không dám đánh trả. Anh có ước mơ trở thành đầu bếp giỏi nhất 
+                                thế giới và có được năng lực tàng hình của trái Suke Suke no Mi chỉ để ngắm gái =))
+                            </p>
+                            <div class="charc__content-container-more">
+                                <span class="charc__content-container-more-text-sanji">
+                                    Tham khảo thêm tại
+                                    <a href="https://vi.wikipedia.org/wiki/Sanji" class="charc__content-container-more-link-ussop" target="_blank"> đây</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="charc__nami">
+                    <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/nami_bg-info.jpg);"></div>
+                    <h1 class="charc__luffy-heading-text charc__nami-heading-text">
+                        Miêu tặc nami
+                    </h1>
+                    <div class="charc__content">
+                        <img src="./assets/img/nami_info.jpeg" alt="" class="charc__info-img">
+                        <div class="charc__content-container charc__content-container-nami">
+                            <p class="charc__content-container-name">Tên đầy đủ: Nami</p>
+                            <p class="charc__content-container-old">Tuổi: 20</p>
+                            <p class="charc__content-container-date">Sinh nhật: ngày 3 tháng 7</p>
+                            <p class="charc__content-container-height">Chiều cao: 170cm</p>
+                            <p class="charc__content-container-power">Trái ác quỷ: Người chơi hệ mẹ thiên nhiên</p>
+                            <p class="charc__content-container-bonus">Tiền thưởng: 366.000.000 Beri</p>
+                            <p class="charc__content-container-position">Chức vụ trong băng: Hoa tiêu</p>
+                            <p class="charc__content-container-desc">
+                                Sơ lược về nhân vật: Nami được biết đến là hoa tiêu của băng, chị chả có gì ngoái sự xinh đẹp, kỹ năng hàng hải tuyệt đỉnh, khả năng chiến đấu cũng không phải tầm thường, nhưng bị một cái là chị mê tiền. 
+                                Nami không chỉ giúp cả băng vượt qua khí hậu của đại hải trình mà còn là cây dũa của cả băng, dũa gì thì ai cũng biết gòi đó dũa cái nết của Sanji với Luffy chứ gì nữa.
+                            </p>
+                            <div class="charc__content-container-more">
+                                <span class="charc__content-container-more-text-nami">
+                                    Tham khảo thêm tại
+                                    <a href="https://vi.wikipedia.org/wiki/Nami_(One_Piece)" class="charc__content-container-more-link-ussop" target="_blank"> đây</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="charc__chopper">
+                    <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/chopper_bg-img.jpg);"></div>
+                    <h1 class="charc__luffy-heading-text charc__chopper-heading-text">
+                        Tony Tony Chopper
+                    </h1>
+                    <div class="charc__content">
+                        <img src="./assets/img/chopper_info.png" alt="" class="charc__info-img">
+                        <div class="charc__content-container charc__content-container-chopper">
+                            <p class="charc__content-container-name">Tên đầy đủ: Tony Tony Chopper</p>
+                            <p class="charc__content-container-old">Tuổi: 17</p>
+                            <p class="charc__content-container-date">Sinh nhật: ngày 24 tháng 12</p>
+                            <p class="charc__content-container-height">Chiều cao: 90cm</p>
+                            <p class="charc__content-container-power">Trái ác quỷ: Hito Hito no Mi</p>
+                            <p class="charc__content-container-bonus">Tiền thưởng: 1.000 Beri</p>
+                            <p class="charc__content-container-position">Chức vụ trong băng: Bác sĩ</p>
+                            <p class="charc__content-container-desc">
+                                Sơ lược về nhân vật: Chopper được biết đến là bác sĩ của băng ngoài ra còn là em út của băng được cả băng cưng như cưng trứng đặc biệt là Zoro. 
+                                Chopper rất hay bị người khác nhầm là chồn mặc dù cậu ấy là mèo máy ủa nhầm =)) là tuần lộc, tuy nhỏ bé nhưng khả năng y thuật của cậu vô cùng uyên bác.
+                            </p>
+                            <div class="charc__content-container-more">
+                                <span class="charc__content-container-more-text-chopper">
+                                    Tham khảo thêm tại
+                                    <a href="https://vi.wikipedia.org/wiki/Tony_Tony_Chopper" class="charc__content-container-more-link-ussop" target="_blank"> đây</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="charc__robin">
+                    <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/robin_bg-info.png);"></div>
+                    <h1 class="charc__luffy-heading-text charc__robin-heading-text">
+                        Nico robin
+                    </h1>
+                    <div class="charc__content">
+                        <img src="./assets/img/robin_info.jpeg" alt="" class="charc__info-img">
+                        <div class="charc__content-container charc__content-container-robin">
+                            <p class="charc__content-container-name">Tên đầy đủ: Nico Robin</p>
+                            <p class="charc__content-container-old">Tuổi: 30</p>
+                            <p class="charc__content-container-date">Sinh nhật: ngày 6 tháng 2</p>
+                            <p class="charc__content-container-height">Chiều cao: 188cm</p>
+                            <p class="charc__content-container-power">Trái ác quỷ: Người chơi hệ kiếm</p>
+                            <p class="charc__content-container-bonus">Tiền thưởng: 930.000.000 Beri</p>
+                            <p class="charc__content-container-position">Chức vụ trong băng: Thuyền viên</p>
+                            <p class="charc__content-container-desc">
+                                Sơ lược về nhân vật: Chị đẹp Robin là một nhà khảo cổ học có thể đọc được các phiến Poneglyph nên đã bị chính quyền thế giới truy nã và gọi với cái tên ác quỷ. Nhưng đối với fan 
+                                của cô thì cô chính ác quỷ cai trị cái đẹp bởi chị đẹp hết phần thiên hạ, tính cách nhẹ nhàng hiền lành nhưng năng lực chiến đấu của cô được xếp vào hàng top của băng, xứng đáng là cô vợ quốc dân.
+                            </p>
+                            <div class="charc__content-container-more">
+                                <span class="charc__content-container-more-text-robin">
+                                    Tham khảo thêm tại
+                                    <a href="https://onepiece.fandom.com/vi/wiki/Nico_Robin" class="charc__content-container-more-link-ussop" target="_blank"> đây</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="charc__franky">
+                    <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/franky_bg-info.jpg);"></div>
+                    <h1 class="charc__luffy-heading-text charc__franky-heading-text">
+                        Franky
+                    </h1>
+                    <div class="charc__content">
+                        <img src="./assets/img/franky_info.png" alt="" class="charc__info-img">
+                        <div class="charc__content-container charc__content-container-franky">
+                            <p class="charc__content-container-name">Tên đầy đủ: Franky</p>
+                            <p class="charc__content-container-old">Tuổi: 36</p>
+                            <p class="charc__content-container-date">Sinh nhật: ngày 9 tháng 3</p>
+                            <p class="charc__content-container-height">Chiều cao: 240cm</p>
+                            <p class="charc__content-container-power">Trái ác quỷ: Người chơi robot biến hình</p>
+                            <p class="charc__content-container-bonus">Tiền thưởng: 394.000.000 Beri</p>
+                            <p class="charc__content-container-position">Chức vụ trong băng: Thợ đóng tàu</p>
+                            <p class="charc__content-container-desc">
+                                Sơ lược về nhân vật: “Người máy” Franky là thợ đóng tàu của băng hải tặc Mũ Rơm. Anh là nửa người nửa máy xuất hiện ở Water 7, ban đầu là người dẫn đầu của gia đình Franky, một nhóm người dỡ tàu. Anh rời khỏi South Blue 32 năm trước, khi mới chỉ có 4 tuổi. Lúc đầu anh mang tên là “Cutty Flam”, nhưng sau này anh không dùng tên đó nữa mà chuyển sang dùng biệt danh để che giấu thân phận, theo yêu cầu của Iceburg.
+                            </p>
+                            <div class="charc__content-container-more">
+                                <span class="charc__content-container-more-text-franky">
+                                    Tham khảo thêm tại
+                                    <a href="https://onepiece.fandom.com/vi/wiki/Th%E1%BB%A3_%C4%90%C3%B3ng_T%C3%A0u_Franky" class="charc__content-container-more-link-ussop" target="_blank"> đây</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="charc__brook">
+                    <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/brook_bg-info.jpg);"></div>
+                    <h1 class="charc__luffy-heading-text charc__brook-heading-text">
+                        Brook
+                    </h1>
+                    <div class="charc__content">
+                        <img src="./assets/img/brook_info.png" alt="" class="charc__info-img">
+                        <div class="charc__content-container charc__content-container-brook">
+                            <p class="charc__content-container-name">Tên đầy đủ: Brook</p>
+                            <p class="charc__content-container-old">Tuổi: 90</p>
+                            <p class="charc__content-container-date">Sinh nhật: ngày 2 tháng 4</p>
+                            <p class="charc__content-container-height">Chiều cao: 277cm</p>
+                            <p class="charc__content-container-power">Trái ác quỷ: Yomi Yomi no Mi</p>
+                            <p class="charc__content-container-bonus">Tiền thưởng: 383.000.000 Beri</p>
+                            <p class="charc__content-container-position">Chức vụ trong băng: Thuyền viên</p>
+                            <p class="charc__content-container-desc">
+                                Sơ lược về nhân vật: Brook là Nhạc Công của Băng Hải tặc Mũ Rơm và là thành viên thứ chín của băng. Ông là một bộ xương mà băng Mũ Rơm đã tìm thấy trên một con tàu ma sau khi con tàu này trôi dạt vào vùng Tam Giác Quỷ trong 50 năm.
+                            </p>
+                            <div class="charc__content-container-more">
+                                <span class="charc__content-container-more-text-brook">
+                                    Tham khảo thêm tại
+                                    <a href="https://onepiece.fandom.com/vi/wiki/Brook" class="charc__content-container-more-link-ussop" target="_blank"> đây</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="charc__jinbei">
+                    <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/jinbei_bg-info.jpg);"></div>
+                    <h1 class="charc__luffy-heading-text charc__jinbei-heading-text">
+                        Jinbei
+                    </h1>
+                    <div class="charc__content">
+                        <img src="./assets/img/jinbei_info.jpeg" alt="" class="charc__info-img">
+                        <div class="charc__content-container charc__content-container-jinbei">
+                            <p class="charc__content-container-name">Tên đầy đủ: Jinbei</p>
+                            <p class="charc__content-container-old">Tuổi: 46</p>
+                            <p class="charc__content-container-date">Sinh nhật: ngày 2 tháng 4</p>
+                            <p class="charc__content-container-height">Chiều cao: 301cm</p>
+                            <p class="charc__content-container-power">Trái ác quỷ: Người chơi karate người cá</p>
+                            <p class="charc__content-container-bonus">Tiền thưởng: 1.100.000.000 Beri</p>
+                            <p class="charc__content-container-position">Chức vụ trong băng: Người lái tàu</p>
+                            <p class="charc__content-container-desc">
+                                Sơ lược về nhân vật: Jinbei từng là thuyền trưởng thứ hai của băng Hải Tặc Mặt Trời và cũng từng là thành viên trong Shichibukai - Thất Vũ Hãi. Trong trận chiến với Tổng bộ Hải Quân, Jinbei đã từ bỏ danh hiệu này để liên minh với Râu Trắng.
+                            </p>
+                            <div class="charc__content-container-more">
+                                <span class="charc__content-container-more-text-jinbei">
+                                    Tham khảo thêm tại
+                                    <a href="https://onepiece.fandom.com/vi/wiki/Jinbei" class="charc__content-container-more-link-ussop" target="_blank"> đây</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div id="contact">
+            <img src="./assets/img/contact_bg.jpg" alt="" class="contact_bg-img">
+            <div class="contact__info-text">Contact</div>
+            <div class="contact__info">
+                <ul class="contact__info-list">
+                    <li class="contact__info-item">
+                        <a href="https://www.facebook.com/levanduy.093/friends" target="_blank">
+                            <i class="contact__info-icon fa-brands fa-square-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="contact__info-item">
+                        <a href="mailto: levanduy2004@gmail.com" target="_blank">
+                            <i class="contact__info-icon fa-regular fa-envelope"></i>
+                        </a>
+                    </li>
+                    <li class="contact__info-item">
+                        <a href="https://www.instagram.com/levanduy2004/" target="_blank">
+                            <i class="contact__info-icon fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="contact__info-item">
+                        <a href="https://www.linkedin.com/in/l%C3%AA-v%C4%83n-duy-69997b24b/" target="_blank">
+                            <i class="contact__info-icon fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="contact__info-item">
+                        <a href="https://github.com/levanduy093" target="_blank">
+                            <i class="contact__info-icon fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
