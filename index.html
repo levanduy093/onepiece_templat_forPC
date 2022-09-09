@@ -30,7 +30,7 @@
                         <a href="#" class="nav__item-link">Home</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#character" class="nav__item-link">Characters</a>
+                        <a href="#character #character-tablet" class="nav__item-link">Characters</a>
                     </li>
                     <li class="nav__item">
                         <a href="#info" class="nav__item-link">Info</a>
@@ -40,12 +40,17 @@
                     </li>
                 </ul>
             </nav>
-            <div class="header__content">
-                <h1 class="header__content-text">One piece</h1>
+            <div class="header__content hide-on-mobile-tablet">
+                <h1 class="header__content-text">one piece</h1>
+            </div>
+
+            <div class="header__content-for-ipad">
+                <h1>One</h1>
+                <h1>Piece</h1>
             </div>
         </div>
-
-        <div id="character">
+        <!-- Hide on mobile & tablet -->
+        <div id="character" class="hide-on-mobile-tablet">
             <div class="bg__character bg__wanted-img" style="background-image: url(./assets/img/char__bg.jpeg);"></div>
             <div class="character__heading-text">
                 <img src="./assets/img/marine_logo.png" alt="" class="marine__wanted-img">
@@ -119,6 +124,79 @@
                 </div>
             </div>
         </div>
+
+        <!-- Character for Tablet -->
+        <div id="character-tablet" class="hide-on-pc">
+            <div class="grid wide">
+                <div class="row">
+                    <img src="./assets/img/marine_logo.png" alt="" class="character-tablet_logo-img">
+                </div>
+                <div class="character-tablet-wanted">
+                    <div class="row">
+                        <a href="" class="character-tablet_wanted-link">
+                            <div class="col m-6">
+                                <img src="./assets/img/wanted/wanted_luffy.png" alt="" class="character-tablet_wanted-img">
+                            </div>
+                        </a>
+                        <a href="" class="character-tablet_wanted-link">
+                            <div class="col m-6">
+                                <img src="./assets/img/wanted/wanted_zoro.png" alt="" class="character-tablet_wanted-img">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="" class="character-tablet_wanted-link">
+                            <div class="col m-6">
+                                <img src="./assets/img/wanted/wanted_ussop.png" alt="" class="character-tablet_wanted-img">
+                            </div>
+                        </a>
+                        <a href="" class="character-tablet_wanted-link">
+                            <div class="col m-6">
+                                <img src="./assets/img/wanted/wanted_sanji.png" alt="" class="character-tablet_wanted-img">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="" class="character-tablet_wanted-link">
+                            <div class="col m-6">
+                                <img src="./assets/img/wanted/wanted_nami.png" alt="" class="character-tablet_wanted-img">
+                            </div>
+                        </a>
+                        <a href="" class="character-tablet_wanted-link">
+                            <div class="col m-6">
+                                <img src="./assets/img/wanted/wanted_chopper.png" alt="" class="character-tablet_wanted-img">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="" class="character-tablet_wanted-link">
+                            <div class="col m-6">
+                                <img src="./assets/img/wanted/wanted_robin.png" alt="" class="character-tablet_wanted-img">
+                            </div>    
+                        </a>
+                        <a href="" class="character-tablet_wanted-link">
+                            <div class="col m-6">
+                                <img src="./assets/img/wanted/wanted_franky.png" alt="" class="character-tablet_wanted-img">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="" class="character-tablet_wanted-link">
+                            <div class="col m-6">
+                                <img src="./assets/img/wanted/wanted_brook.png" alt="" class="character-tablet_wanted-img">
+                            </div>
+                        </a>
+                        <a href="" class="character-tablet_wanted-link">
+                            <div class="col m-6">
+                                <img src="./assets/img/wanted/wanted_jinbei.png" alt="" class="character-tablet_wanted-img">
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
         
         <div id="info">
                 <div id="charc__luffy">
