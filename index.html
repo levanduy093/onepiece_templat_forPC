@@ -11,21 +11,26 @@
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
     <title>One Piece</title>
 </head>
 <body>
     <div class="app">
+        
         <div id="header">
 
             <video autoplay loop muted plays-inline class="header__bg-video">
                 <source src="./assets/img/header_bg.mp4" type="video/mp4">
             </video>
 
+            <!-- Navbar for pc and tablet -->
             <nav>
-                <a href="#">
-                    <img src="./assets/img/logo.png" alt="Logo" class="header__nav-img">
-                </a>
-                <ul class="nav__list">
+                <div class="header__nav-item-img">
+                    <a href="#">
+                        <img src="./assets/img/logo.png" alt="Logo" class="header__nav-img">
+                    </a>
+                </div>
+                <ul class="nav__list hide-on-mobile">
                     <li class="nav__item">
                         <a href="#" class="nav__item-link">Home</a>
                     </li>
@@ -40,15 +45,37 @@
                     </li>
                 </ul>
             </nav>
+
+            <!-- Navbar for mobile -->
+            <div class="hide-on-pc hide-on-tablet">
+                <nav class="nav__control">
+                    <ul class="nav__control-list">
+                        <li class="nav__control-item">
+                            <a href="#header" class="nav__control-item-link">Home</a>
+                        </li>
+                        <li class="nav__control-item">
+                            <a href="#character" class="nav__control-item-link">Character</a>
+                        </li>
+                        <li class="nav__control-item">
+                            <a href="#info" class="nav__control-item-link">Info</a>
+                        </li>
+                        <li class="nav__control-item">
+                            <a href="#contact" class="nav__control-item-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
             <div class="header__content hide-on-mobile-tablet">
                 <h1 class="header__content-text">one piece</h1>
             </div>
 
-            <div class="header__content-for-ipad">
+            <div class="header__content-for-ipad header__content-for-mobile hide-on-pc">
                 <h1>One</h1>
                 <h1>Piece</h1>
             </div>
         </div>
+
         <!-- Hide on mobile & tablet -->
         <div id="character" class="hide-on-mobile-tablet">
             <div class="bg__character bg__wanted-img" style="background-image: url(./assets/img/char__bg.jpeg);"></div>
@@ -134,60 +161,60 @@
                 <div class="character-tablet-wanted">
                     <div class="row">
                         <a href="" class="character-tablet_wanted-link">
-                            <div class="col m-6">
+                            <div class="col m-6 c-12">
                                 <img src="./assets/img/wanted/wanted_luffy.png" alt="" class="character-tablet_wanted-img">
                             </div>
                         </a>
                         <a href="" class="character-tablet_wanted-link">
-                            <div class="col m-6">
+                            <div class="col m-6 c-12">
                                 <img src="./assets/img/wanted/wanted_zoro.png" alt="" class="character-tablet_wanted-img">
                             </div>
                         </a>
                     </div>
                     <div class="row">
                         <a href="" class="character-tablet_wanted-link">
-                            <div class="col m-6">
+                            <div class="col m-6 c-12">
                                 <img src="./assets/img/wanted/wanted_ussop.png" alt="" class="character-tablet_wanted-img">
                             </div>
                         </a>
                         <a href="" class="character-tablet_wanted-link">
-                            <div class="col m-6">
+                            <div class="col m-6 c-12">
                                 <img src="./assets/img/wanted/wanted_sanji.png" alt="" class="character-tablet_wanted-img">
                             </div>
                         </a>
                     </div>
                     <div class="row">
                         <a href="" class="character-tablet_wanted-link">
-                            <div class="col m-6">
+                            <div class="col m-6 c-12">
                                 <img src="./assets/img/wanted/wanted_nami.png" alt="" class="character-tablet_wanted-img">
                             </div>
                         </a>
                         <a href="" class="character-tablet_wanted-link">
-                            <div class="col m-6">
+                            <div class="col m-6 c-12">
                                 <img src="./assets/img/wanted/wanted_chopper.png" alt="" class="character-tablet_wanted-img">
                             </div>
                         </a>
                     </div>
                     <div class="row">
                         <a href="" class="character-tablet_wanted-link">
-                            <div class="col m-6">
+                            <div class="col m-6 c-12">
                                 <img src="./assets/img/wanted/wanted_robin.png" alt="" class="character-tablet_wanted-img">
                             </div>    
                         </a>
                         <a href="" class="character-tablet_wanted-link">
-                            <div class="col m-6">
+                            <div class="col m-6 c-12">
                                 <img src="./assets/img/wanted/wanted_franky.png" alt="" class="character-tablet_wanted-img">
                             </div>
                         </a>
                     </div>
                     <div class="row">
                         <a href="" class="character-tablet_wanted-link">
-                            <div class="col m-6">
+                            <div class="col m-6 c-12">
                                 <img src="./assets/img/wanted/wanted_brook.png" alt="" class="character-tablet_wanted-img">
                             </div>
                         </a>
                         <a href="" class="character-tablet_wanted-link">
-                            <div class="col m-6">
+                            <div class="col m-6 c-12">
                                 <img src="./assets/img/wanted/wanted_jinbei.png" alt="" class="character-tablet_wanted-img">
                             </div>
                         </a>
@@ -201,7 +228,11 @@
         <div id="info">
                 <div id="charc__luffy">
                     <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/luffy_bg-info.jpg);"></div>
-                    <h1 class="charc__luffy-heading-text">
+                    <div class="char__heading-text-name hide-on-pc hide-on-tablet">
+                        <h1>Monkey</h1>
+                        <h1> D. Luffy</h1>
+                    </div>
+                    <h1 class="charc__luffy-heading-text hide-on-mobile">
                         Monkey D. Luffy
                     </h1>
                     <div class="charc__content">
@@ -231,7 +262,11 @@
 
                 <div id="charc__zoro">
                     <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/zoro_bg-info.png);"></div>
-                    <h1 class="charc__luffy-heading-text charc__zoro-heading-text">
+                    <div class="char__heading-text-name hide-on-pc hide-on-tablet">
+                        <h1>Monkey</h1>
+                        <h1> D. Luffy</h1>
+                    </div>
+                    <h1 class="charc__luffy-heading-text charc__zoro-heading-text hide-on-mobile">
                         Roronoa Zoro
                     </h1>
                     <div class="charc__content">
@@ -261,7 +296,10 @@
 
                 <div id="charc__ussop">
                     <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/ussop_bg-info.jpg);"></div>
-                    <h1 class="charc__luffy-heading-text charc__ussop-heading-text">
+                    <div class="char__heading-text-name hide-on-pc hide-on-tablet">
+                        <h1>God Usopp</h1>
+                    </div>
+                    <h1 class="charc__luffy-heading-text charc__ussop-heading-text hide-on-mobile">
                         God Usopp
                     </h1>
                     <div class="charc__content">
@@ -290,7 +328,11 @@
 
                 <div id="charc__sanji">
                     <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/sanji_bg-img.jpg);"></div>
-                    <h1 class="charc__luffy-heading-text charc__sanji-heading-text">
+                    <div class="char__heading-text-name hide-on-pc hide-on-tablet">
+                        <h1>Vinsmoke</h1>
+                        <h1> Sanji</h1>
+                    </div>
+                    <h1 class="charc__luffy-heading-text charc__sanji-heading-text hide-on-mobile">
                         Vinsmoke sanji
                     </h1>
                     <div class="charc__content">
@@ -320,7 +362,11 @@
 
                 <div id="charc__nami">
                     <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/nami_bg-info.jpg);"></div>
-                    <h1 class="charc__luffy-heading-text charc__nami-heading-text">
+                    <div class="char__heading-text-name hide-on-pc hide-on-tablet">
+                        <h1>Miêu tặc</h1>
+                        <h1> Nami</h1>
+                    </div>
+                    <h1 class="charc__luffy-heading-text charc__nami-heading-text hide-on-mobile">
                         Miêu tặc nami
                     </h1>
                     <div class="charc__content">
@@ -349,7 +395,11 @@
 
                 <div id="charc__chopper">
                     <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/chopper_bg-img.jpg);"></div>
-                    <h1 class="charc__luffy-heading-text charc__chopper-heading-text">
+                    <div class="char__heading-text-name hide-on-pc hide-on-tablet">
+                        <h1>Tony Tony</h1>
+                        <h1>Chopper</h1>
+                    </div>
+                    <h1 class="charc__luffy-heading-text charc__chopper-heading-text hide-on-mobile">
                         Tony Tony Chopper
                     </h1>
                     <div class="charc__content">
@@ -378,7 +428,10 @@
 
                 <div id="charc__robin">
                     <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/robin_bg-info.png);"></div>
-                    <h1 class="charc__luffy-heading-text charc__robin-heading-text">
+                    <div class="char__heading-text-name hide-on-pc hide-on-tablet">
+                        <h1>Nico Robin</h1>
+                    </div>
+                    <h1 class="charc__luffy-heading-text charc__robin-heading-text hide-on-mobile">
                         Nico robin
                     </h1>
                     <div class="charc__content">
@@ -407,7 +460,10 @@
 
                 <div id="charc__franky">
                     <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/franky_bg-info.jpg);"></div>
-                    <h1 class="charc__luffy-heading-text charc__franky-heading-text">
+                    <div class="char__heading-text-name hide-on-pc hide-on-tablet">
+                        <h1>Franky</h1>
+                    </div>
+                    <h1 class="charc__luffy-heading-text charc__franky-heading-text hide-on-mobile">
                         Franky
                     </h1>
                     <div class="charc__content">
@@ -435,7 +491,10 @@
 
                 <div id="charc__brook">
                     <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/brook_bg-info.jpg);"></div>
-                    <h1 class="charc__luffy-heading-text charc__brook-heading-text">
+                    <div class="char__heading-text-name hide-on-pc hide-on-tablet">
+                        <h1>Brook</h1>
+                    </div>
+                    <h1 class="charc__luffy-heading-text charc__brook-heading-text hide-on-mobile">
                         Brook
                     </h1>
                     <div class="charc__content">
@@ -463,7 +522,10 @@
 
                 <div id="charc__jinbei">
                     <div class="charc__luffy-bg-img" style="background-image: url(./assets/img/jinbei_bg-info.jpg);"></div>
-                    <h1 class="charc__luffy-heading-text charc__jinbei-heading-text">
+                    <div class="char__heading-text-name hide-on-pc hide-on-tablet">
+                        <h1>Jinbei</h1>
+                    </div>
+                    <h1 class="charc__luffy-heading-text charc__jinbei-heading-text hide-on-mobile">
                         Jinbei
                     </h1>
                     <div class="charc__content">
